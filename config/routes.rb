@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  # home page  controller#action
+  #get "/" => "prodects#index"
   root to: 'products#index'
 
   resources :products, only: [:index, :show]
