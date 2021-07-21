@@ -10,7 +10,7 @@ class ProductsController < ApplicationController
   def show
     #instance variable @prodect is automaticlly transfered between controller into the view
     @product = Product.find params[:id]
-    #render :show implecit
+    #render :show implicit
   end
 
 end
