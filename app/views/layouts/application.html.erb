@@ -11,6 +11,21 @@
   <%= render 'layouts/top_nav' %>
 
   <main class="container">
+
+
+    <% if active_sale? %>
+      <p class="alert alert-info">
+        There's an avtive <%= "Back to school"%> sale going on!
+        Everying is <strong><%= 15%> off!</strong>
+      </p>
+    <% end %>
+
+    <% if current_user %>
+    Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+    <% else %>
+    <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+    <% end %>
+
     <%# render show  %>
     <%= yield %>
   </main>
