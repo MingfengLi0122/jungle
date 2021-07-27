@@ -14,7 +14,7 @@ RSpec.describe Product, type: :model do
     it "fail to save when name is missing" do
       @product.name = nil
       @product.save
-      
+    
       expect(@product.save).to eq false
       expect(@product.errors.full_messages).to eq ["Name can't be blank"]
     end
