@@ -133,4 +133,39 @@ cat3.products.create!({
 })
 
 
+Sale.create!({
+  name: 'Spring sale',
+  percent_off: '15',
+  starts_on: 'Jan 5, 2021',
+  ends_on: 'Jan 14, 2021'
+})
+
+Sale.create!({
+  name: 'Return school',
+  percent_off: '15',
+  starts_on: 'Jul 20, 2021',
+  ends_on: 'Jul 29, 2021'
+})
+
+Sale.create!({
+  name: 'Return school',
+  percent_off: '50',
+  starts_on: 'Jun 20, 2021',
+  ends_on: 'Aug 29, 2021'
+})
+
+Sale.create!({
+  name: 'Winter sale',
+  percent_off: '25',
+  starts_on: 'Dec 5, 2020',
+  ends_on: 'Dec 14, 2020'
+})
+
+Sale.create!({
+  name: 'Winter sale',
+  percent_off: '15',
+  starts_on: 'Dec 5, 2020',
+  ends_on: 'Dec 14, 2020'
+})
+
 puts "DONE!"
