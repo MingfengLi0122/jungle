@@ -4,28 +4,31 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 # Final Product
 ### Home page
-![alt text](http://url/to/img.png)
+![Home](https://github.com/MingfengLi0122/jungle/blob/master/docs/homepage.png)
 
 ### Category page
-![alt text](http://url/to/img.png)
+![Category](https://github.com/MingfengLi0122/jungle/blob/master/docs/categories.png)
 
 ### Cart page
-![alt text](http://url/to/img.png)
+![Cart](https://github.com/MingfengLi0122/jungle/blob/master/docs/cart.png)
 
 ### Payment page
-![alt text](http://url/to/img.png)
+![Payment](https://github.com/MingfengLi0122/jungle/blob/master/docs/payment.png)
 
 ### Admin Dashboard page
-![alt text](http://url/to/img.png)
+![Admin Dashboard](https://github.com/MingfengLi0122/jungle/blob/master/docs/admin_dashboard.png)
+
+### Admin Sales page
+![Admin Sales](https://github.com/MingfengLi0122/jungle/blob/master/docs/admin_sales.png)
 
 ### Admin Product page
-![alt text](http://url/to/img.png)
+![Admin Product](https://github.com/MingfengLi0122/jungle/blob/master/docs/admin_product.png)
 
 ### Admin Category page
-![alt text](http://url/to/img.png)
+![Admin Category](https://github.com/MingfengLi0122/jungle/blob/master/docs/admin_category.png)
 
 ### Rspec Unit Test
-![alt text](http://url/to/img.png)
+![Rspec Unit](https://github.com/MingfengLi0122/jungle/blob/master/docs/rspec_unit_test.png)
 
 ## Additional Steps for Apple M1 Machines
 
