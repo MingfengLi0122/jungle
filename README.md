@@ -2,6 +2,31 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+# Final Product
+### Home page
+![alt text](http://url/to/img.png)
+
+### Category page
+![alt text](http://url/to/img.png)
+
+### Cart page
+![alt text](http://url/to/img.png)
+
+### Payment page
+![alt text](http://url/to/img.png)
+
+### Admin Dashboard page
+![alt text](http://url/to/img.png)
+
+### Admin Product page
+![alt text](http://url/to/img.png)
+
+### Admin Category page
+![alt text](http://url/to/img.png)
+
+### Rspec Unit Test
+![alt text](http://url/to/img.png)
+
 ## Additional Steps for Apple M1 Machines
 
 1. Make sure that you are runnning Ruby 2.6.6 (`ruby -v`)
@@ -29,5 +54,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 ## Dependencies
 
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
+* Capybara
+* Rspec
 * PostgreSQL 9.x
 * Stripe
+
