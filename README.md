@@ -1,6 +1,6 @@
 # Jungle
 
-A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
+A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. The users are allowed to shop product in different categories and place orders. Admin user can modify the stock/name/category of each product and create sale event.
 
 # Final Product
 ### Home page
@@ -47,6 +47,11 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 6. Sign up for a Stripe account
 7. Put Stripe (test) keys into appropriate .env vars
 8. Run `bin/rails s -b 0.0.0.0` to start the server
+
+## Test
+
+1. Run `bin/rspec` to test all files
+2. Run `bin/rspec path/fileName.rb` to test specific file
 
 ## Stripe Testing
 
